@@ -12,7 +12,7 @@ import io.cucumber.testng.CucumberOptions;
 
 
 @CucumberOptions(
-		features = {"Features/"},
+		features = {"Features/Api.feature"},
 		plugin = {"pretty","json:target/cucumber.json",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 		glue = {"com.stepdef","com.hooks"},

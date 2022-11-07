@@ -1,0 +1,380 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User Generates token for authorization",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2453000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User generates a token",
+            "match": {
+              "location": "com.stepdef.ApiStepDef.user_generates_a_token()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-07T00:21:08.319Z",
+        "line": 8,
+        "name": "The Authorized admin user can Get all Products.",
+        "description": "",
+        "id": "user-is-able-to-retrieve-product-information-as-well-as-post-new-products-;the-authorized-admin-user-can-get-all-products.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 358000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Get method is used for endpoint",
+            "match": {
+              "location": "com.stepdef.ApiStepDef.get_method_is_used_for_endpoint()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "All the products are retrieved",
+            "match": {
+              "location": "com.stepdef.ApiStepDef.all_the_products_are_retrieved()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The status code is 200 Ok",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdef.ApiStepDef.the_status_code_is_ok(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The response time is below 500 ms",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 27
+                }
+              ],
+              "location": "com.stepdef.ApiStepDef.the_response_time_is_below_ms(long)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User Generates token for authorization",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 454000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User generates a token",
+            "match": {
+              "location": "com.stepdef.ApiStepDef.user_generates_a_token()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-07T00:21:11.520Z",
+        "line": 17,
+        "name": "The Authorized admin user can Post new Product.",
+        "description": "",
+        "id": "user-is-able-to-retrieve-product-information-as-well-as-post-new-products-;the-authorized-admin-user-can-post-new-product.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 348000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Post method is used for endpoint",
+            "match": {
+              "location": "com.stepdef.ApiStepDef.post_method_is_used_for_endpoint()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Sample product is posted to the application",
+            "match": {
+              "location": "com.stepdef.ApiStepDef.sample_product_is_posted_to_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The status code is 201 Created",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdef.ApiStepDef.the_status_code_is_created(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The response time is below 500 ms",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 27
+                }
+              ],
+              "location": "com.stepdef.ApiStepDef.the_response_time_is_below_ms(long)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User Generates token for authorization",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 450000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User generates a token",
+            "match": {
+              "location": "com.stepdef.ApiStepDef.user_generates_a_token()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-07T00:21:12.367Z",
+        "line": 26,
+        "name": "The Authorized admin user Update a new Product.",
+        "description": "",
+        "id": "user-is-able-to-retrieve-product-information-as-well-as-post-new-products-;the-authorized-admin-user-update-a-new-product.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 264000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Put method is used for endpoint",
+            "match": {
+              "location": "com.stepdef.ApiStepDef.put_method_is_used_for_endpoint()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Sample product is updated in the application",
+            "match": {
+              "location": "com.stepdef.ApiStepDef.sample_product_is_updated_in_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "The status code is 201 Created",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdef.ApiStepDef.the_status_code_is_created(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "The response time is below 500 ms",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 27
+                }
+              ],
+              "location": "com.stepdef.ApiStepDef.the_response_time_is_below_ms(long)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User Generates token for authorization",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 437000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User generates a token",
+            "match": {
+              "location": "com.stepdef.ApiStepDef.user_generates_a_token()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-07T00:21:13.118Z",
+        "line": 35,
+        "name": "The Authorized admin user can Delete a new Product.",
+        "description": "",
+        "id": "user-is-able-to-retrieve-product-information-as-well-as-post-new-products-;the-authorized-admin-user-can-delete-a-new-product.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 254000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Delete method is used for endpoint",
+            "match": {
+              "location": "com.stepdef.ApiStepDef.delete_method_is_used_for_endpoint()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Sample product is removed from the application",
+            "match": {
+              "location": "com.stepdef.ApiStepDef.sample_product_is_removed_from_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "The status code is 200 Ok",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdef.ApiStepDef.the_status_code_is_ok(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "The response time is below 500 ms",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 27
+                }
+              ],
+              "location": "com.stepdef.ApiStepDef.the_response_time_is_below_ms(long)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "User is able to Retrieve product information as well as post new products,",
+    "description": "edit products, and delete the products with API",
+    "id": "user-is-able-to-retrieve-product-information-as-well-as-post-new-products-",
+    "keyword": "Feature",
+    "uri": "file:Features/Api.feature",
+    "tags": []
+  }
+]

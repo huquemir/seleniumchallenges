@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Grasshopper Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Oct 23, 2022 01:14:19 AM</span></a>
+<a href="#"><span class="badge badge-primary">Nov 6, 2022 07:21:07 PM</span></a>
 </li>
 </ul>
 </div>
@@ -61,19 +61,19 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Oct 23, 2022 01:14:19 AM</h3>
+<h3>Nov 6, 2022 07:21:07 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Oct 23, 2022 01:15:50 AM</h3>
+<h3>Nov 6, 2022 07:21:13 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>5</h3>
+<h3>1</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -96,7 +96,7 @@
 </div>
 <div class="card-footer">
 <div><small data-tooltip='100%'>
-<b>5</b> features passed
+<b>1</b> features passed
 </small>
 </div>
 <div>
@@ -118,7 +118,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>11</b> scenarios passed</small></div>
+<div><small data-tooltip='100%'><b>4</b> scenarios passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -138,7 +138,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>60</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>20</b> steps passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -157,7 +157,7 @@
 </div></div>
 <script>
 var timeline = {
-"User is able to add items to cart":25.261,"Contact Us Page":32.974,"User should be able to go to reports page":16.527,"Drag and Drop and switch to iframe demo":10.779,"User should be able to go login to website":4.326
+"User is able to Retrieve product information as well as post new products,":5.442
 };
 </script>
 <div class="row">
@@ -192,18 +192,18 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 5,
+passParent: 1,
 failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 11,
+passChild: 4,
 failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 60,
+passGrandChild: 20,
 failGrandChild: 0,
 warningGrandChild: 0,
 skipGrandChild: 0,
@@ -233,9 +233,9 @@ eventsCount: 5,
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">User is able to add items to cart</p>
+            <p class="name">User is able to Retrieve product information as well as post new products,</p>
             <p class="text-sm">
-              <span>01:14:20 AM</span> / <span>00:00:25:261</span>
+              <span>19:21:08 PM</span> / <span>00:00:05:442</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -243,61 +243,46 @@ eventsCount: 5,
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">User is able to add items to cart</h5>
-<span class='badge badge-success'>10.23.2022 01:14:20</span>
-<span class='badge badge-danger'>10.23.2022 01:14:45</span>
-<span class='badge badge-default'>00:00:25:261</span>
+<h5 class="test-status text-pass">User is able to Retrieve product information as well as post new products,</h5>
+<span class='badge badge-success'>11.06.2022 19:21:08</span>
+<span class='badge badge-danger'>11.06.2022 19:21:13</span>
+<span class='badge badge-default'>00:00:05:442</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 </div>
-<div class="m-t-10 m-l-5"></div>
+<div class="m-t-10 m-l-5">edit products, and delete the products with API</div>
 </div>
 </div>
 <div class="accordion mt-4">
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>User clicks on an item from the homepage and adds the item to the cart</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>The Authorized admin user can Get all Products.</div>
       </div>
     </div>
         <div class="collapse">
           <div class="card-body">
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_clicks_on_the_sign_in_button()">
-                <span>Given User clicks on the sign in button</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.user_generates_a_token()">
+                <span>Given User generates a token</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_enters_username_and_password()">
-                <span>When User enters username and password</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.get_method_is_used_for_endpoint()">
+                <span>When Get method is used for endpoint</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_clicks_on_the_login_button()">
-                <span>And user clicks on the login button</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.all_the_products_are_retrieved()">
+                <span>Then All the products are retrieved</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_is_able_to_sign_in()">
-                <span>Then user is able to sign in</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.the_status_code_is_ok(int)">
+                <span>And The status code is 200 Ok</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.stepdef.CartStepDef.user_clicks_on_the_first_item()">
-                <span>When User clicks on the first item</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.CartStepDef.user_selects_the_quantity()">
-                <span>And User selects the quantity</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.CartStepDef.user_clicks_on_add_to_cart_button()">
-                <span>And User clicks on Add to Cart button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.CartStepDef.the_correct_quantity_is_displayed()">
-                <span>Then the correct quantity is displayed</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.the_response_time_is_below_ms(long)">
+                <span>And The response time is below 500 ms</span>
       <div>
       </div>
               </div>
@@ -307,92 +292,33 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="13"><span class="badge log pass-bg mr-2">Pass</span>User can hover over their username</div>
+        <div class="node" id="8"><span class="badge log pass-bg mr-2">Pass</span>The Authorized admin user can Post new Product.</div>
       </div>
     </div>
         <div class="collapse">
           <div class="card-body">
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_clicks_on_the_sign_in_button()">
-                <span>Given User clicks on the sign in button</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.user_generates_a_token()">
+                <span>Given User generates a token</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_enters_username_and_password()">
-                <span>When User enters username and password</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.post_method_is_used_for_endpoint()">
+                <span>When Post method is used for endpoint</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_clicks_on_the_login_button()">
-                <span>And user clicks on the login button</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.sample_product_is_posted_to_the_application()">
+                <span>Then Sample product is posted to the application</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_is_able_to_sign_in()">
-                <span>Then user is able to sign in</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.the_status_code_is_created(int)">
+                <span>And The status code is 201 Created</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.stepdef.ReportsStepDef.user_clicks_on_the_profile()">
-                <span>Given User clicks on the profile</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.CartStepDef.user_hovers_over_their_profile()">
-                <span>When User hovers over their profile</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="22"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Contact Us Page</p>
-            <p class="text-sm">
-              <span>01:14:45 AM</span> / <span>00:00:32:974</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">Contact Us Page</h5>
-<span class='badge badge-success'>10.23.2022 01:14:45</span>
-<span class='badge badge-danger'>10.23.2022 01:15:18</span>
-<span class='badge badge-default'>00:00:32:974</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="23"><span class="badge log pass-bg mr-2">Pass</span>User can perform Multi Select</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="com.stepdef.ContactsStepDef.user_clicks_on_the_contact_us_page()">
-                <span>When User clicks on the Contact Us Page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ContactsStepDef.user_clicks_on_monday_and_tuesday_selection()">
-                <span>When User clicks on Monday and Tuesday selection</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ContactsStepDef.monday_and_tuesday_are_selected()">
-                <span>Then Monday and Tuesday are selected</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.the_response_time_is_below_ms(long)">
+                <span>And The response time is below 500 ms</span>
       <div>
       </div>
               </div>
@@ -402,28 +328,33 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="29"><span class="badge log pass-bg mr-2">Pass</span>User can click on the checkboxes</div>
+        <div class="node" id="14"><span class="badge log pass-bg mr-2">Pass</span>The Authorized admin user Update a new Product.</div>
       </div>
     </div>
         <div class="collapse">
           <div class="card-body">
-              <div class="step pass-bg" title="com.stepdef.ContactsStepDef.user_clicks_on_the_contact_us_page()">
-                <span>When User clicks on the Contact Us Page</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.user_generates_a_token()">
+                <span>Given User generates a token</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.stepdef.ContactsStepDef.user_clicks_on_morning_and_afternoon_checkboxes()">
-                <span>When User clicks on Morning and Afternoon checkboxes</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.put_method_is_used_for_endpoint()">
+                <span>When Put method is used for endpoint</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.stepdef.ContactsStepDef.morning_and_afternoon_checkboxes_are_selected()">
-                <span>Then Morning and Afternoon checkboxes are selected</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.sample_product_is_updated_in_the_application()">
+                <span>Then Sample product is updated in the application</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.stepdef.ContactsStepDef.evening_checkbox_is_not_selected()">
-                <span>And Evening checkbox is not selected</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.the_status_code_is_created(int)">
+                <span>And The status code is 201 Created</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.the_response_time_is_below_ms(long)">
+                <span>And The response time is below 500 ms</span>
       <div>
       </div>
               </div>
@@ -433,353 +364,33 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="36"><span class="badge log pass-bg mr-2">Pass</span>User can open a new tab window and switch</div>
+        <div class="node" id="20"><span class="badge log pass-bg mr-2">Pass</span>The Authorized admin user can Delete a new Product.</div>
       </div>
     </div>
         <div class="collapse">
           <div class="card-body">
-              <div class="step pass-bg" title="com.stepdef.ContactsStepDef.user_clicks_on_the_contact_us_page()">
-                <span>When User clicks on the Contact Us Page</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.user_generates_a_token()">
+                <span>Given User generates a token</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.stepdef.ContactsStepDef.user_opens_a_new_tab_window()">
-                <span>When User opens a new tab window</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.delete_method_is_used_for_endpoint()">
+                <span>When Delete method is used for endpoint</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.stepdef.ContactsStepDef.user_switches_to_the_new_tab_window_and_close_and_switch_back_to_the_old_tab()">
-                <span>Then User switches to the new tab window and close and switch back to the old tab</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.sample_product_is_removed_from_the_application()">
+                <span>Then Sample product is removed from the application</span>
       <div>
       </div>
               </div>
-          </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="42"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">User should be able to go to reports page</p>
-            <p class="text-sm">
-              <span>01:15:18 AM</span> / <span>00:00:16:527</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">User should be able to go to reports page</h5>
-<span class='badge badge-success'>10.23.2022 01:15:18</span>
-<span class='badge badge-danger'>10.23.2022 01:15:35</span>
-<span class='badge badge-default'>00:00:16:527</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=42</span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="43"><span class="badge log pass-bg mr-2">Pass</span>User should be able to click on the upload button</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_clicks_on_the_sign_in_button()">
-                <span>Given User clicks on the sign in button</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.the_status_code_is_ok(int)">
+                <span>And The status code is 200 Ok</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_enters_username_and_password()">
-                <span>When User enters username and password</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_clicks_on_the_login_button()">
-                <span>And user clicks on the login button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_is_able_to_sign_in()">
-                <span>Then user is able to sign in</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ReportsStepDef.user_clicks_on_the_profile()">
-                <span>Given User clicks on the profile</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ReportsStepDef.user_clicks_on_reports_button()">
-                <span>And User clicks on Reports button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ReportsStepDef.user_uploads_a_file()">
-                <span>When User uploads a file</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ReportsStepDef.the_file_name_is_displayed(java.lang.String)">
-                <span>Then The attribute "input" is displayed</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="54"><span class="badge log pass-bg mr-2">Pass</span>User should be able to handle alert with Ok button</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_clicks_on_the_sign_in_button()">
-                <span>Given User clicks on the sign in button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_enters_username_and_password()">
-                <span>When User enters username and password</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_clicks_on_the_login_button()">
-                <span>And user clicks on the login button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_is_able_to_sign_in()">
-                <span>Then user is able to sign in</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ReportsStepDef.user_clicks_on_the_profile()">
-                <span>Given User clicks on the profile</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ReportsStepDef.user_clicks_on_reports_button()">
-                <span>And User clicks on Reports button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ReportsStepDef.user_clicks_on_upload_button()">
-                <span>When User clicks on Upload button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ReportsStepDef.user_enters_name_and_user_clicks_on_ok_button()">
-                <span>And User Enters Name and User clicks on Ok button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ReportsStepDef.message_is_displayed(java.lang.String)">
-                <span>Then Message "Thanks for uploading Hello" is displayed</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="66"><span class="badge log pass-bg mr-2">Pass</span>User should be able to handle alert by cancelling</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_clicks_on_the_sign_in_button()">
-                <span>Given User clicks on the sign in button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_enters_username_and_password()">
-                <span>When User enters username and password</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_clicks_on_the_login_button()">
-                <span>And user clicks on the login button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_is_able_to_sign_in()">
-                <span>Then user is able to sign in</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ReportsStepDef.user_clicks_on_the_profile()">
-                <span>Given User clicks on the profile</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ReportsStepDef.user_clicks_on_reports_button()">
-                <span>And User clicks on Reports button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ReportsStepDef.user_clicks_on_upload_button()">
-                <span>When User clicks on Upload button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ReportsStepDef.user_cancels_the_alert()">
-                <span>When User cancels the alert</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ReportsStepDef.message_is_displayed_on_screen(java.lang.String)">
-                <span>Then Message "User cancelled the prompt." is displayed on screen</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="78"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Drag and Drop and switch to iframe demo</p>
-            <p class="text-sm">
-              <span>01:15:35 AM</span> / <span>00:00:10:779</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">Drag and Drop and switch to iframe demo</h5>
-<span class='badge badge-success'>10.23.2022 01:15:35</span>
-<span class='badge badge-danger'>10.23.2022 01:15:45</span>
-<span class='badge badge-default'>00:00:10:779</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=78</span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="79"><span class="badge log pass-bg mr-2">Pass</span>User is able to drag and drop items</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="com.stepdef.ContactsStepDef.user_clicks_on_the_contact_us_page()">
-                <span>When User clicks on the Contact Us Page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ThanksPageStepDef.user_clicks_on_the_submit_button_on_contacts_page()">
-                <span>And User clicks on the Submit button on contacts page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ThanksPageStepDef.user_drag_and_drops_an_item()">
-                <span>When User drag and drops an item</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="85"><span class="badge log pass-bg mr-2">Pass</span>User is able to switch to iframe</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="com.stepdef.ContactsStepDef.user_clicks_on_the_contact_us_page()">
-                <span>When User clicks on the Contact Us Page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ThanksPageStepDef.user_clicks_on_the_submit_button_on_contacts_page()">
-                <span>And User clicks on the Submit button on contacts page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.ThanksPageStepDef.user_switches_to_the_iframe_and_clicks_on_the_zoom_in_button()">
-                <span>When User switches to the iframe and clicks on the zoom in button</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="91"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">User should be able to go login to website</p>
-            <p class="text-sm">
-              <span>01:15:45 AM</span> / <span>00:00:04:326</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">User should be able to go login to website</h5>
-<span class='badge badge-success'>10.23.2022 01:15:45</span>
-<span class='badge badge-danger'>10.23.2022 01:15:50</span>
-<span class='badge badge-default'>00:00:04:326</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=91</span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="92"><span class="badge log pass-bg mr-2">Pass</span>User should login before performing each scenario</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_clicks_on_the_sign_in_button()">
-                <span>Given User clicks on the sign in button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_enters_username_and_password()">
-                <span>When User enters username and password</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_clicks_on_the_login_button()">
-                <span>And user clicks on the login button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.stepdef.UserLoginStepDef.user_is_able_to_sign_in()">
-                <span>Then user is able to sign in</span>
+              <div class="step pass-bg" title="com.stepdef.ApiStepDef.the_response_time_is_below_ms(long)">
+                <span>And The response time is below 500 ms</span>
       <div>
       </div>
               </div>
