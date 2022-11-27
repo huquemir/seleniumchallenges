@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.runner.ApiRunnerClass">
+      <class name="com.dbutility.DBJaws">
         <methods>
-          <include name="runScenario" invocation-numbers="0"/>
-          <include name="tearDownClass"/>
-          <include name="setUpClass"/>
+          <include name="dbConnection"/>
         </methods>
-      </class> <!-- com.runner.ApiRunnerClass -->
+      </class> <!-- com.dbutility.DBJaws -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
