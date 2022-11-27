@@ -1,88 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6952" started-at="2022-11-07T00:21:07Z" finished-at="2022-11-07T00:21:14Z">
+  <suite name="Default suite" duration-ms="832" started-at="2022-11-27T08:23:10Z" finished-at="2022-11-27T08:23:10Z">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.ApiRunnerClass@4961f6af]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="6952" started-at="2022-11-07T00:21:07Z" finished-at="2022-11-07T00:21:14Z">
-      <class name="com.runner.ApiRunnerClass">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.ApiRunnerClass@4961f6af]" name="setUpClass" is-config="true" duration-ms="827" started-at="2022-11-07T00:21:07Z" finished-at="2022-11-07T00:21:08Z">
+    <test name="Default test" duration-ms="832" started-at="2022-11-27T08:23:10Z" finished-at="2022-11-27T08:23:10Z">
+      <class name="com.dbutility.DBJaws">
+        <test-method status="PASS" signature="dbConnection()[pri:0, instance:com.dbutility.DBJaws@fa4c865]" name="dbConnection" duration-ms="808" started-at="2022-11-27T08:23:10Z" finished-at="2022-11-27T08:23:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.ApiRunnerClass@4961f6af]" name="runScenario" duration-ms="3339" started-at="2022-11-07T00:21:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-07T00:21:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The Authorized admin user can Get all Products."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[User is able to Retrieve product information as well as post new products,]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.ApiRunnerClass@4961f6af]" name="runScenario" duration-ms="854" started-at="2022-11-07T00:21:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-07T00:21:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The Authorized admin user can Post new Product."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[User is able to Retrieve product information as well as post new products,]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.ApiRunnerClass@4961f6af]" name="runScenario" duration-ms="748" started-at="2022-11-07T00:21:12Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-07T00:21:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The Authorized admin user Update a new Product."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[User is able to Retrieve product information as well as post new products,]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.ApiRunnerClass@4961f6af]" name="runScenario" duration-ms="729" started-at="2022-11-07T00:21:13Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-07T00:21:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The Authorized admin user can Delete a new Product."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[User is able to Retrieve product information as well as post new products,]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.ApiRunnerClass@4961f6af]" name="tearDownClass" is-config="true" duration-ms="424" started-at="2022-11-07T00:21:13Z" finished-at="2022-11-07T00:21:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.runner.ApiRunnerClass -->
+        </test-method> <!-- dbConnection -->
+      </class> <!-- com.dbutility.DBJaws -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
